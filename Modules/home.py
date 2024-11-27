@@ -64,3 +64,4 @@ def home_page():
     prediction = predict_demand(user_day_of_week, user_start_location, user_end_location, user_time_of_day, model, label_encoders)
     # Display the predicted demand
     st.write(f"Predicted Demand: {prediction['predicted_demand']}")
+#

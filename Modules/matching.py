@@ -68,3 +68,4 @@ def find_similar_users(user_id, user_data, model, tfidf_matrix, gender_filter=Tr
         similar_users[matched_user['user_id']] = matched_user['travel_history']
     
     return similar_users
+#

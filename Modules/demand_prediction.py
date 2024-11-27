@@ -86,3 +86,5 @@ def predict_demand(day_of_week, start_location, end_location, time_of_day, model
             "time_of_day": time_of_day,
             "predicted_demand": f"Prediction failed: {str(e)}",
         }
+    #
+#
