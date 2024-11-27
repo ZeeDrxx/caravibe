@@ -1,14 +1,15 @@
 import streamlit as st
 from Modules.route_optimization import load_trip_data, optimize_routes
 from Modules.demand_prediction import load_demand_data, train_model, predict_demand
+from Modules.matching import load_user_data, preprocess_travel_history, train_similarity_model, find_similar_users
+
+
 
 def home_page():
+
     # Load trip data and user
     trip_data = load_trip_data()
-
     st.title("CaraVibe: AI-Powered Ridesharing App")
-
-
     st.subheader("Dynamic Route Optimization")
     # Display original trip data
     st.write("### Original Trip Data")
@@ -28,6 +29,25 @@ def home_page():
         file_name="optimized_routes.csv",
         mime="text/csv",
     )
+
+
+    # Preprocess travel data and train model
+    user_data = load_user_data()
+    tfidf_matrix, vectorizer = preprocess_travel_history(user_data)
+    similarity_model = train_similarity_model(tfidf_matrix)
+    # Add recommendation system to Streamlit app
+    st.write("### Personalized Recommendations")
+    user_id = st.selectbox("Select User ID for Recommendations", user_data['user_id'])
+    gender_filter = st.checkbox("Apply Gender Filter", value=True)
+    # Find similar users
+    recommendations = find_similar_users(user_id, user_data, similarity_model, tfidf_matrix, gender_filter)
+    # Display recommendations
+    if recommendations:
+        st.write(f"Recommended Users for User {user_id}:")
+        for similar_user_id, history in recommendations.items():
+            st.write(f"- User {similar_user_id}: {history}")
+    else:
+        st.write("No suitable recommendations found.")
 
 
     # Load demand data and extract unique locations
