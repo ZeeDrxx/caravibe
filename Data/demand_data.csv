@@ -1,0 +1,15 @@
+day_of_week,start_location,end_location,time_of_day,demand
+Monday,Casablanca,Rabat,morning,120
+Tuesday,Agadir,Marrakech,evening,15
+Wednesday,Fez,Tangier,afternoon,10
+Thursday,Rabat,Kenitra,morning,130
+Friday,Marrakech,Essaouira,evening,60
+Saturday,Tangier,Asilah,afternoon,110
+Sunday,Casablanca,Chefchaouen,morning,5
+Monday,Rabat,Fez,evening,10
+Tuesday,Agadir,Casablanca,morning,3
+Wednesday,Chefchaouen,Marrakech,afternoon,1
+Thursday,Marrakech,Agadir,morning,20
+Friday,Casablanca,Rabat,evening,160
+Saturday,Essaouira,Tangier,afternoon,5
+Sunday,Fez,Kenitra,morning,35
