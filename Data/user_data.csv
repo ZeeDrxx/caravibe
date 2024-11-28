@@ -1,36 +1,41 @@
-user_id,first_name,last_name,gender,travel_with_only_females,travel_history
-1,Zayd,Bentalha,Male,NONE,"Casablanca -> Laayoun / Marrakech -> Rabat / Tangier -> Laayoun"
-2,Oumnia,Samiri,Female,TRUE,"Rabat -> Kenitra / Tangier -> Laayoun"
-3,Ahmed,Benhassine,Male,NONE,"Casablanca -> Marrakech"
-4,Fatima,Zouiten,Female,FALSE,"Marrakech -> Essaouira"
-5,Hassan,Khadir,Male,NONE,"Fez -> Casablanca"
-6,Salma,El Mouden,Female,TRUE,"Marrakech -> Agadir"
-7,Zakaria,El Azzouzi,Male,NONE,"Tangier -> Asilah"
-8,Yassine,Choukri,Male,NONE,"Casablanca -> Marrakech"
-9,Sara,El Idrissi,Female,TRUE,"Rabat -> Tangier / Fez -> Essaouira"
-10,Khalid,Benali,Male,NONE,"Marrakech -> Essaouira"
-11,Laila,El Amrani,Female,FALSE,"Casablanca -> Laayoun"
-12,Omar,El Joudi,Male,NONE,"Marrakech -> Rabat"
-13,Nour,El Houssi,Female,FALSE,"Fez -> Tangier"
-14,Imane,El Bouhdidi,Female,TRUE,"Rabat -> Kenitra"
-15,Hassan,Ait Ouarid,Female,TRUE,"Essaouira -> Marrakech"
-16,Zineb,El Fassi,Female,TRUE,"Casablanca -> Fez"
-17,Karim,Mohamed,Male,NONE,"Tangier -> Laayoun"
-18,Majda,Alami,Female,FALSE,"Marrakech -> Casablanca"
-19,Souad,El Hariri,Female,FALSE,"Rabat -> Agadir"
-20,Ismail,El Arifi,Male,NONE,"Marrakech -> Casablanca"
-21,Amine,Azzouz,Male,NONE,"Casablanca -> Marrakesh"
-22,Hiba,Ait Lahcen,Female,TRUE,"Marrakech -> Essaouira"
-23,Mohamed,El Mahjoub,Male,NONE,"Tangier -> Chefchaouen"
-24,Yasmina,Al Kharraz,Female,TRUE,"Marrakech -> Rabat"
-25,Rachid,Chakir,Male,NONE,"Fez -> Essaouira"
-26,Fatima,El Jaouhari,Female,FALSE,"Rabat -> Kenitra / Essaouira -> Marrakech"
-27,Anas,Ben Laarbi,Male,NONE,"Casablanca -> Tangier / Agadir -> Tangier"
-28,Leila,El Mejdoub,Female,TRUE,"Marrakech -> Laayoun"
-29,Ibrahim,El Ouadi,Male,NONE,"Casablanca -> Agadir"
-30,Sofia,Chibani,Female,TRUE,"Rabat -> Essaouira"
-31,Idris,Ait Laarbi,Male,NONE,"Marrakech -> Fez"
-32,Rania,El Khamlichi,Female,FALSE,"Agadir -> Tangier"
-33,Younes,El Messari,Male,NONE,"Laayoun -> Chefchaouen"
-34,Amina,El Ouali,Female,FALSE,"Essaouira -> Rabat"
-35,Brahim,El Mansouri,Male,NONE,"Fez -> Casablanca / Fez -> Essaouira"
+user_id,first_name,last_name,gender,travel_with_only_females,travel_history,age_group,travel_frequency,car_preference
+1,Zayd,Bentalha,Male,NONE,Casablanca -> Laayoun / Marrakech -> Rabat / Tangier -> Laayoun,18-25,Weekly,suv
+2,Oumnia,Samiri,Female,TRUE,Rabat -> Kenitra / Tangier -> Laayoun,18-25,Monthly,electric
+3,Ahmed,Benhassine,Male,NONE,"Casablanca -> Marrakech",18-25,Monthly,sedan
+4,Fatima,Zouiten,Female,FALSE,"Marrakech -> Essaouira",26-35,Weekly,electric
+5,Hassan,Khadir,Male,NONE,Fez -> Casablanca,36-45,Weekly,suv
+6,Salma,El Mouden,Female,TRUE,Marrakech -> Agadir,18-25,Monthly,compact
+7,Zakaria,El Azzouzi,Male,NONE,Tangier -> Asilah,26-35,Daily,sedan
+8,Yassine,Choukri,Male,NONE,Casablanca -> Marrakech,36-45,Rarely,suv
+9,Sara,El Idrissi,Female,TRUE,Rabat -> Tangier / Fez -> Essaouira,26-35,Weekly,electric
+10,Khalid,Benali,Male,NONE,Marrakech -> Essaouira,46-55,Weekly,suv
+11,Laila,El Amrani,Female,FALSE,Casablanca -> Laayoun,18-25,Monthly,compact
+12,Omar,El Joudi,Male,NONE,Marrakech -> Rabat,26-35,Daily,sedan
+13,Nour,El Houssi,Female,FALSE,Fez -> Tangier,36-45,Monthly,suv
+14,Imane,El Bouhdidi,Female,TRUE,Rabat -> Kenitra,18-25,Weekly,electric
+15,Hassan,Ait Ouarid,Female,TRUE,Essaouira -> Marrakech,26-35,Monthly,compact
+16,Zineb,El Fassi,Female,TRUE,Casablanca -> Fez,26-35,Daily,electric
+17,Karim,Mohamed,Male,NONE,Tangier -> Laayoun,46-55,Weekly,sedan
+18,Majda,Alami,Female,FALSE,Marrakech -> Casablanca,56+,Monthly,suv
+19,Souad,El Hariri,Female,FALSE,Rabat -> Agadir,26-35,Weekly,electric
+20,Ismail,El Arifi,Male,NONE,Marrakech -> Casablanca,18-25,Rarely,compact
+21,Amine,Azzouz,Male,NONE,Casablanca -> Marrakesh,26-35,Weekly,sedan
+22,Hiba,Ait Lahcen,Female,TRUE,Marrakech -> Essaouira,18-25,Monthly,electric
+23,Mohamed,El Mahjoub,Male,NONE,Tangier -> Chefchaouen,26-35,Weekly,compact
+24,Yasmina,Al Kharraz,Female,TRUE,Marrakech -> Rabat,26-35,Daily,electric
+25,Rachid,Chakir,Male,NONE,Fez -> Essaouira,36-45,Monthly,sedan
+26,Fatima,El Jaouhari,Female,FALSE,Rabat -> Kenitra / Essaouira -> Marrakech,46-55,Weekly,suv
+27,Anas,Ben Laarbi,Male,NONE,Casablanca -> Tangier / Agadir -> Tangier,26-35,Weekly,compact
+28,Leila,El Mejdoub,Female,TRUE,Marrakech -> Laayoun,56+,Monthly,electric
+29,Ibrahim,El Ouadi,Male,NONE,Casablanca -> Agadir,46-55,Monthly,suv
+30,Sofia,Chibani,Female,TRUE,Rabat -> Essaouira,18-25,Weekly,sedan
+31,Idris,Ait Laarbi,Male,NONE,Marrakech -> Fez,26-35,Weekly,electric
+32,Rania,El Khamlichi,Female,FALSE,Agadir -> Tangier,26-35,Daily,sedan
+33,Younes,El Messari,Male,NONE,Laayoun -> Chefchaouen,18-25,Rarely,compact
+34,Amina,El Ouali,Female,FALSE,Essaouira -> Rabat,36-45,Weekly,electric
+35,Brahim,El Mansouri,Male,NONE,Fez -> Casablanca / Fez -> Essaouira,26-35,Weekly,suv
+36,Soulayman,El Haddaoui,Male,NONE,Casablanca -> Fez / Rabat -> Essaouira,36-45,Weekly,compact
+37,Lina,El Idrissi,Female,FALSE,Marrakech -> Tangier / Agadir -> Casablanca,26-35,Daily,electric
+38,Ali,Ben Ayoub,Male,NONE,Casablanca -> Marrakech / Fez -> Chefchaouen,18-25,Monthly,sedan
+39,Najat,El Mansouri,Female,TRUE,Rabat -> Kenitra / Essaouira -> Marrakech,56+,Monthly,electric
+40,Karim,El Fadli,Male,NONE,Tangier -> Rabat / Marrakech -> Fez,46-55,Weekly,suv
